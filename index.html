@@ -23,74 +23,18 @@
 	<![endif]-->
 	<style>
 		* { padding: 0; margin: 0; }
-		body {
-			background-color: #566B70;
-			background:url('img/eg_bg_parachute.jpg') no-repeat center center fixed;
-			-webkit-background-size: cover;
-			-moz-background-size: cover;
-			-o-background-size: cover;
-			background-size: cover;
-		}
-		h1 {
-			font-family: Verdana;
-			font-weight: normal;
-			font-style: normal;
-			font-size: 60px;
-			line-height: 100%;
-			margin: 20px 0 20px 0;
-			color: #000;
-			text-shadow: none;
-		}
+		html { min-height:100%; }
+		body { background-color: #000; background:url('img/eg_bg_parachute.jpg') no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
+		h1 { font-family: Verdana; font-weight: normal; font-style: normal; font-size: 60px; line-height: 100%; margin: 20px 0 20px 0; color: #000; text-shadow: none; }
 		p { color: #000; font-family: Verdana; font-size: 18px; line-height: 24px; margin-bottom: 10px; -webkit-font-smoothing: antialiased; }
 		a { color: #000; font-weight: bold; text-decoration: none; border-bottom: 1px solid rgba(255,255,255,0.3); }
 		a:hover { color: #990000; border-bottom: 1px solid rgba(255,255,255,1); }
-		#about {
-			margin: 10px 50px 0 auto !important;
-			-moz-box-shadow: 0 1px 1px rgba(0,0,0,0.4);
-			-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
-			box-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
-			-moz-border-radius: 5px;
-			-webkit-border-radius: 5px;
-			border-radius: 5px;
-			right: 30px;
-			top: 30px;
-			padding: 10px 30px 30px 30px;
-			width: 420px;
-			word-wrap: break-word;
-			background-color: rgba(255, 255, 255, 0.7);
-			font-size: 11px;
-			font-family: Verdana;
-			font-weight: normal;
-			font-style: normal;
-		}
-		#profile {
-			overflow: hidden;
-			margin: 20px 0 0 0;
-			line-height: 130%;
-		}
-		#profile-image {
-			display: block;
-			max-width: 100%;
-			cursor: pointer;
-		}
-		.service-icons-color {
-			background: url("img/service_icons_color.png") no-repeat top left;
-			vertical-align: middle;
-			width: 32px;
-			height: 32px;
-		}
-		#social-list {
-			list-style-type: none!important;
-			list-style-position: outside!important;
-			padding: 0;
-			list-style: none;
-			overflow: hidden;
-			display: block;
-		}
-		.social-item {
-			float: left;
-			margin: 10px 10px 0 0;
-		}
+		#about { margin: 10px 50px 10px auto !important; -moz-box-shadow: 0 1px 1px rgba(0,0,0,0.4); -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.4); box-shadow: 0 1px 1px rgba(0, 0, 0, 0.4); -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px;right: 30px;  top: 30px; padding: 10px 30px 30px 30px; width: 420px; word-wrap: break-word; background-color: rgba(255, 255, 255, 0.7); }
+		#profile { margin: 20px 0 0 0; line-height: 130%; }
+		#profile-image { display: block; max-width: 100%; height: auto; width: auto\9; /* ie8 */ }
+		.service-icons-color { background: url("img/service_icons_color.png") noa-repeat top left; vertical-align: middle; width: 32px; height: 32px; border:0; }
+		#social-list { list-style-type: none!important; list-style-position: outside!important; padding: 0; list-style: none; overflow: hidden; display: block; margin-bottom: 10px; }
+		.social-item { float: left; margin: 10px 10px 0 0; }
 		.service-icons-square-32-twitter {
 			background-position: -48px 0;
 		}
@@ -112,21 +56,15 @@
 		.service-icons-square-32-instagram {
 			background-position: -336px -960px;
 		}
-		@media (max-width: 767px) {
-			#about { position: relative; width: 100%; padding: 5px 10px 5px 10px; margin: 0px 0px 0px 0px; top: 0px; right: 0px;}
-			background-image { opacity: 0.2; }
-			h1 {font-size: 40px;}
-		}
-		@media (max-width: 400px) {
+		@media (max-width: 480px) {
+			body { background:none; background-color: #000; -webkit-text-size-adjust: none; }
 			h1 {font-size: 36px;}
-			#profile {max-width: 90%;}
+			#about { right: auto; top: auto; margin: 10px 10px 10px 10px !important; padding: 5px 10px 5px 10px; width: auto;}
+			p { font-size: 16px; }
 		}
 	</style>
 </head>
-
 <body>
-
-<!-- swap out for information about yourself -->
 <div id="about">
 	<div id="profile">
 		<img id="profile-image" src="img/profile.jpg">
