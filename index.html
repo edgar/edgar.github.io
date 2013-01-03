@@ -23,7 +23,14 @@
 	<![endif]-->
 	<style>
 		* { padding: 0; margin: 0; }
-		body { background-color: #566B70; }
+		body {
+			background-color: #566B70;
+			background:url('img/eg_bg_parachute.jpg') no-repeat center center fixed;
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
+		}
 		h1 {
 			font-family: Verdana;
 			font-weight: normal;
@@ -153,20 +160,6 @@
 		</li>
 	</ul>
 </div>
-
-<!--include jquery & backstretch-->
-<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery-backstretch/2.0.3/jquery.backstretch.min.js"></script>
-<script type="text/javascript">
-$(function(){
-     $(window).resize(function(){
-         if($(this).width() >= 1024){
-             $.backstretch("img/eg_bg_parachute.jpg", {speed: 150});
-         }
-      })
-      .resize();//trigger resize on page load
-});
-</script>
 <script type="text/javascript">
   var _gaq = _gaq || [];
   _gaq.push(['_setAccount', 'UA-165195-7']);
