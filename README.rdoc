@@ -1,4 +1,4 @@
-= edgar.gonzalez.net.ve
+= edgar.com.ve
 
-{My personal page}[http://edgar.gonzalez.net.ve] builded using {jekyll}[http://github.com/mojombo/jekyll]
+{My personal page}[http://edgar.com.ve] builded using {jekyll}[http://github.com/mojombo/jekyll]
 

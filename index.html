@@ -1,58 +1,183 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!doctype html>
+<html>
 <head>
-  <title>Edgar González</title>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <link rel="openid.server" href="http://www.myopenid.com/server" />
-  <link rel="openid.delegate" href="http://edgargonzalez.myopenid.com/" />
-  <meta content="http://edgargonzalez.myopenid.com/xrds" http-equiv="X-XRDS-Location"/>
-  <meta name="description" Content="Edgar Gonzalez personal page" />
-  <meta name="Keywords" content="Edgar, Gonzalez, venezuela, ruby, rails, nosql, web, developer" />
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<title>Edgar Gonzalez</title>
+	<meta name="description" Content="Edgar Gonzalez" />
+  <meta name="Keywords" content="Edgar Gonzalez, venezuela, new york, nyc, ruby, rails, nosql, web, developer, agile, lean startup" />
   <meta name="robots" content="index, follow, noodp, noydir"/>
   <meta name="googlebot" content="index, follow, noodp, noydir"/>
   <meta name="msnbot" content="index, follow, noodp, noydir"/>
   <meta name="slurp" content="index, follow, noodp, noydir"/>
   <meta name="google-site-verification" content="-qsdO-ooXKShejXZjYDS1lmHdcZBLUYE1fpqWGTMI2M" />
   <meta name="msvalidate.01" content="329B9D398CD567DDF8C0EAF575D7AD04" />
-
-  <link rel="shortcut icon" href="/favicon.ico" />
-  <link rel="start" href="http://edgar.gonzalez.net.ve/" title="Edgar González" />
-  <script type="text/javascript">
-
-    var _gaq = _gaq || [];
-    _gaq.push(['_setAccount', 'UA-165195-7']);
-    _gaq.push(['_trackPageview']);
-
-    (function() {
-      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-    })();
-
-  </script>
+	<meta http-equiv="pragma" content="no-cache" />
+	<meta name="robots" content="all" />
+	<meta name="MSSmartTagsPreventParsing" content="true" />
+	<meta http-equiv="imagetoolbar" content="false" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <link rel="start" href="http://edgar.com.ve/" title="Edgar Gonzalez" />
+	<link rel="Shortcut Icon" href="/favicon.ico" type="image/x-icon" />
+	<!--[if lt IE 9]>
+	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	<style>
+		* { padding: 0; margin: 0; }
+		body { background-color: #566B70; }
+		h1 {
+			font-family: Verdana;
+			font-weight: normal;
+			font-style: normal;
+			font-size: 60px;
+			line-height: 100%;
+			margin: 20px 0 20px 0;
+			color: #000;
+			text-shadow: none;
+		}
+		p { color: #000; font-family: Verdana; font-size: 18px; line-height: 24px; margin-bottom: 10px; -webkit-font-smoothing: antialiased; }
+		a { color: #000; font-weight: bold; text-decoration: none; border-bottom: 1px solid rgba(255,255,255,0.3); }
+		a:hover { color: #990000; border-bottom: 1px solid rgba(255,255,255,1); }
+		#about {
+			margin: 10px 50px 0 auto !important;
+			-moz-box-shadow: 0 1px 1px rgba(0,0,0,0.4);
+			-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
+			box-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
+			-moz-border-radius: 5px;
+			-webkit-border-radius: 5px;
+			border-radius: 5px;
+			right: 30px;
+			top: 30px;
+			padding: 10px 30px 30px 30px;
+			width: 420px;
+			word-wrap: break-word;
+			background-color: rgba(255, 255, 255, 0.7);
+			font-size: 11px;
+			font-family: Verdana;
+			font-weight: normal;
+			font-style: normal;
+		}
+		#profile {
+			overflow: hidden;
+			margin: 20px 0 0 0;
+			line-height: 130%;
+		}
+		#profile-image {
+			display: block;
+			max-width: 100%;
+			cursor: pointer;
+		}
+		.service-icons-color {
+			background: url("img/service_icons_color.png") no-repeat top left;
+			vertical-align: middle;
+			width: 32px;
+			height: 32px;
+		}
+		#social-list {
+			list-style-type: none!important;
+			list-style-position: outside!important;
+			padding: 0;
+			list-style: none;
+			overflow: hidden;
+			display: block;
+		}
+		.social-item {
+			float: left;
+			margin: 10px 10px 0 0;
+		}
+		.service-icons-square-32-twitter {
+			background-position: -48px 0;
+		}
+		.service-icons-square-32-tumblr {
+			background-position: -240px 0;
+		}
+		.service-icons-square-32-linkedin {
+			background-position: -240px -96px;
+		}
+		.service-icons-square-32-github {
+			background-position: -240px -480px;
+		}
+		.service-icons-square-32-google {
+			background-position: -144px -672px;
+		}
+		.service-icons-square-32-facebook {
+			background-position: -144px 0px;
+		}
+		.service-icons-square-32-instagram {
+			background-position: -336px -960px;
+		}
+		@media (max-width: 767px) {
+			#about { position: relative; width: 100%; padding: 5px 10px 5px 10px; margin: 0px 0px 0px 0px; top: 0px; right: 0px;}
+			background-image { opacity: 0.2; }
+			h1 {font-size: 40px;}
+		}
+		@media (max-width: 400px) {
+			h1 {font-size: 36px;}
+			#profile {max-width: 90%;}
+		}
+	</style>
 </head>
-<frameset border="0" rows="100%,*" frameborder="0" marginleft="0" margintop="0" marginright="0" marginbottom="0">
-  <frame src="http://flavors.me/edgargonzalez" scrolling="auto" frameborder="0" border="0" noresize />
-  <frame topmargin="0" marginwidth="0" scrolling="no" marginheight="0" frameborder="0" border="0" noresize />
-  <noframes>
-    <body>
-      <h1>Edgar González</h1>
-      <h2>
-      Father of two. When I'm not spending my time with the kids,
-      I'm an Architect, Web Developer and Project Manager.
-      Expert on Ruby on Rails and Agile development, NoSQL enthusiast.
-      </h2>
-      <ul>
-        <li><a href="http://twitter.com/edgar">Twitter</a> .::. <a href="http://twitter.com/edgar">@edgar</a></li>
-        <li><a href="http://picasaweb.google.com/edgargonzalez">My photos on Picasa</a></li>
-        <li><a href="http://www.flickr.com/people/egg/">My photos on Flickr</a></li>
-        <li><a href="http://www.youtube.com/user/edgargonzaleznetve">Watch my videos on YouTube</a></li>
-        <li><a href="http://ve.linkedin.com/in/edgargonzalezg">Professional profile in LinkedIn</a></li>
-        <li><a href="http://github.com/edgar">My Activity on Github</a></li>
-      </ul>
-    </body>
-  </noframes>
-</frameset>
-</html>
 
+<body>
+
+<!-- swap out for information about yourself -->
+<div id="about">
+	<div id="profile">
+		<img id="profile-image" src="img/profile.jpg">
+	</div>
+	<h1>Edgar Gonzalez</h1>
+	<p>Father, husband, and software developer. I'm <strong>building</strong> web applications since 1994 for a living and I <em>love</em> it.</p>
+	<p>Rubyist, Rails developer since 2006, believer of Agile Development and Lean startups, NoSQL enthusiast.</p>
+	<p>I'm currently co-founder and CTO at <a href="http://piictu.com">Piictu.com</a>.</p>
+	<p>Born in Caracas - Venezuela, living in New York.</p>
+	<ul id="social-list">
+		<li class="social-item">
+			<a href="http://twitter.com/edgar"><img class="service-icons-color service-icons-square-32-twitter" title="@edgar" src="img/transparent.gif" alt=""></a>
+		</li>
+		<li class="social-item">
+			<a href="http://edgar.tumblr.com"><img class="service-icons-color service-icons-square-32-tumblr" title="My Tumblr" src="img/transparent.gif" alt=""></a>
+		</li>
+		<li class="social-item">
+			<a href="http://www.linkedin.com/in/edgargonzalezg/"><img class="service-icons-color service-icons-square-32-linkedin" title="My Resume" src="img/transparent.gif" alt=""></a>
+		</li>
+		<li class="social-item">
+			<a href="http://www.github.com/edgar"><img class="service-icons-color service-icons-square-32-github" title="My Github" src="img/transparent.gif" alt=""></a>
+		</li>
+		<li class="social-item">
+			<a href="https://plus.google.com/u/0/100631072843840322866"><img class="service-icons-color service-icons-square-32-google" title="My Google Profile" src="img/transparent.gif" alt=""></a>
+		</li>
+		<li class="social-item">
+			<a href="http://www.facebook.com/3dg4r"><img class="service-icons-color service-icons-square-32-facebook" title="My Facebook" src="img/transparent.gif" alt=""></a>
+		</li>
+		<li class="social-item">
+			<a href="http://www.instagram.com/edgargonzalez"><img class="service-icons-color service-icons-square-32-instagram" title="My mobile photos" src="img/transparent.gif" alt=""></a>
+		</li>
+	</ul>
+</div>
+
+<!--include jquery & backstretch-->
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery-backstretch/2.0.3/jquery.backstretch.min.js"></script>
+<script type="text/javascript">
+$(function(){
+     $(window).resize(function(){
+         if($(this).width() >= 1024){
+             $.backstretch("img/eg_bg_parachute.jpg", {speed: 150});
+         }
+      })
+      .resize();//trigger resize on page load
+});
+</script>
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-165195-7']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</body>
+</html>
