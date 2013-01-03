@@ -1,16 +1,24 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="http://www.xml-sitemaps.com/gen/pages/mods/sitemap.xsl"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+      xsi:schemaLocation="
+            http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   <url>
-    <loc>http://edgar.com.ve/</loc>
-    <lastmod>2013-01-03</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-    <image:image>
-       <image:loc>http://edgar.com.ve/img/profile.jpg</image:loc>
-    </image:image>
-    <image:image>
-       <image:loc>http://edgar.com.ve/img/eg_bg_parachute.jpg</image:loc>
-    </image:image>
+   <loc>http://edgar.com.ve/</loc>
+   <lastmod>2013-01-03T04:35:03+00:00</lastmod>
+   <changefreq>daily</changefreq>
+   <priority>0.5</priority>
+   <image:image>
+     <image:loc>http://edgar.com.ve/img/profile.jpg</image:loc>
+     <image:caption>Edgar Gonzalez profile picture</image:caption>
+   </image:image>
+   <image:image>
+     <image:loc>http://edgar.com.ve/img/eg_bg_parachute.jpg</image:loc>
+     <image:caption>Edgar Gonzalez parachute sky diving</image:caption>
+   </image:image>
   </url>
 </urlset>
