@@ -1,26 +1,23 @@
 require 'rubygems'
 require 'rake'
+require 'yaml'
 
-task :default => 'server:auto'
+config_file = '_config.yml'
+config = YAML.load_file(config_file)
 
-# Default site deploy to staging
-@folder = 'vp.com.ve:/home/odin/public_html/edgar.staging'
+env = ENV['env'] || 'stage'
 
-desc "Set site deployment to production environment (folder)"
-task :production do
-  @folder = 'vp.com.ve:/home/odin/public_html/edgar'
+task :deploy do
+  sh "jekyll && rsync -avz --delete #{config['destination']}/ #{config['environments'][env]['remote']['connection']}:#{config['environments'][env]['remote']['path']}"
 end
 
-namespace :site do
-  task :deploy do
-    exec("jekyll && rsync -avz --delete _site/ odin@#{@folder}")
-  end
+task :launch do
+  sh "open #{config['environments'][env]['url']}"
 end
 
-namespace :server do
-  desc "Starts the server with autobuild enabled"
-  task :auto do
-    exec('jekyll --server --auto')
-  end
-end
+# task :default => 'server'
 
+# desc "Starts the server"
+# task :server do
+#   exec('jekyll')
+# end

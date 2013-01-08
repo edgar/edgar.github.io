@@ -1,3 +1,15 @@
 permalink: none
 exclude: README.rdoc, Rakefile
-
+server: false
+auto: false
+environments:
+  stage:
+    url: http://stage.example.com
+    remote:
+      connection: odin@vp.com.ve
+      path: /home/odin/public_html/edgar.staging
+  production:
+    url: http://edgar.com.ve
+    remote:
+      connection: odin@vp.com.ve
+      path: /home/odin/public_html/edgar
