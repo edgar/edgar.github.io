@@ -8,7 +8,7 @@ config = YAML.load_file(config_file)
 env = ENV['env'] || 'stage'
 
 task :deploy do
-  sh "jekyll && rsync -avz --delete _site/ #{config['environments'][env]['remote']['connection']}:#{config['environments'][env]['remote']['path']}"
+  sh "jekyll build && rsync -avz --delete _site/ #{config['environments'][env]['remote']['connection']}:#{config['environments'][env]['remote']['path']}"
 end
 
 task :launch do
@@ -19,5 +19,5 @@ task :default => 'server'
 
 desc "Starts the server"
 task :server do
-  exec('jekyll --server --auto')
+  exec('jekyll serve')
 end

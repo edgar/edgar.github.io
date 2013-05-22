@@ -1,5 +1,5 @@
 permalink: none
-exclude: README.rdoc, Rakefile
+exclude: [README.rdoc, Rakefile]
 environments:
   stage:
     url: http://vp.com.ve/edgar.staging
