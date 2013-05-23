@@ -19,5 +19,5 @@ task :default => 'server'
 
 desc "Starts the server"
 task :server do
-  exec('jekyll serve')
+  exec('jekyll serve --watch')
 end
