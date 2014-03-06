@@ -4,10 +4,10 @@ environments:
   stage:
     url: http://vp.com.ve/edgar.staging
     remote:
-      connection: odin@edgar.com.ve
+      connection: odin@gonzalez.io
       path: /home/odin/public_html/edgar.staging
   production:
-    url: http://edgar.com.ve
+    url: http://www.gonzalez.io
     remote:
-      connection: odin@edgar.com.ve
-      path: /home/odin/public_html/edgar
+      connection: odin@gonzalez.io
+      path: /home/odin/public_html/gonzalez
