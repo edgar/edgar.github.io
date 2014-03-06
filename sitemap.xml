@@ -8,16 +8,16 @@
             http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   <url>
-   <loc>http://edgar.com.ve/</loc>
-   <lastmod>2013-01-03T04:35:03+00:00</lastmod>
+   <loc>http://gonzalez.io/</loc>
+   <lastmod>2014-03-05T03:20:00+00:00</lastmod>
    <changefreq>daily</changefreq>
    <priority>0.5</priority>
    <image:image>
-     <image:loc>http://edgar.com.ve/img/profile.jpg</image:loc>
+     <image:loc>http://gonzalez.io/img/profile.jpg</image:loc>
      <image:caption>Edgar Gonzalez profile picture</image:caption>
    </image:image>
    <image:image>
-     <image:loc>http://edgar.com.ve/img/eg_bg_parachute.jpg</image:loc>
+     <image:loc>http://gonzalez.io/img/eg_bg_parachute.jpg</image:loc>
      <image:caption>Edgar Gonzalez parachute sky diving</image:caption>
    </image:image>
   </url>
