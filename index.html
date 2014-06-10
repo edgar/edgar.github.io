@@ -54,33 +54,36 @@
 		#about { margin: 10px 50px 10px auto !important; -moz-box-shadow: 0 1px 1px rgba(0,0,0,0.4); -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.4); box-shadow: 0 1px 1px rgba(0, 0, 0, 0.4); -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px;right: 30px;  top: 30px; padding: 10px 30px 30px 30px; width: 420px; word-wrap: break-word; background-color: rgba(255, 255, 255, 0.7); }
 		#profile { margin: 20px 0 0 0; line-height: 130%; }
 		#profile-image { display: block; max-width: 100%; height: auto; width: auto\9; /* ie8 */ }
-		.service-icons-color { background: url("img/service_icons_color.png") no-repeat top left; vertical-align: middle; width: 32px; height: 32px; border:0; }
+		.service-icons-color { vertical-align: middle; width: 32px; height: 32px; border:0; }
 		#social-list { list-style-type: none!important; list-style-position: outside!important; padding: 0; list-style: none; overflow: hidden; display: block; margin-bottom: 10px; }
 		.social-item { float: left; margin: 10px 10px 0 0; }
 		.service-icons-square-32-twitter {
-			background-position: -48px 0;
+			background: url("img/twitter-32x32.png") no-repeat top left;
 		}
 		.service-icons-square-32-tumblr {
-			background-position: -240px 0;
+			background: url("img/tumblr-32x32.png") no-repeat top left;
 		}
 		.service-icons-square-32-linkedin {
-			background-position: -240px -96px;
+			background: url("img/linkedin-32x32.png") no-repeat top left;
 		}
 		.service-icons-square-32-github {
-			background-position: -240px -480px;
+			background: url("img/github-32x32.png") no-repeat top left;
 		}
 		.service-icons-square-32-google {
-			background-position: -144px -672px;
+			background: url("img/google+-32x32.png") no-repeat top left;
 		}
 		.service-icons-square-32-facebook {
-			background-position: -144px 0px;
+			background: url("img/facebook-32x32.png") no-repeat top left;
 		}
 		.service-icons-square-32-instagram {
-			background-position: -336px -960px;
+			background: url("img/instagram-32x32.png") no-repeat top left;
 		}
 		.service-icons-square-32-flickr {
-			background-position:-48px -192px;
+			background: url("img/flickr-32x32.png") no-repeat top left;
 		}
+    .service-icons-square-32-foursquare {
+      background: url("img/foursquare-32x32.png") no-repeat top left;
+    }
 		@media (max-width: 480px) {
 			body { background:none; background-color: #000; -webkit-text-size-adjust: none; }
 			h1 {font-size: 36px;}
@@ -88,6 +91,12 @@
 			p { font-size: 16px; }
 		}
 	</style>
+	<script src="/js/redirection-mobile.js"></script>
+    <script>
+        SA.redirection_mobile({
+        	mobile_url : "/mobile.html"
+        });
+    </script>
 	<script>
 	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -115,22 +124,25 @@
 			<a href="http://edgar.tumblr.com/"><img class="service-icons-color service-icons-square-32-tumblr" title="My Tumblr" src="img/transparent.gif" alt=""></a>
 		</li>
 		<li class="social-item">
-			<a href="http://www.linkedin.com/in/edgargonzalezg/"><img class="service-icons-color service-icons-square-32-linkedin" title="My Resume" src="img/transparent.gif" alt=""></a>
+			<a href="http://www.linkedin.com/in/edgargonzalezg/"><img class="service-icons-color service-icons-square-32-linkedin" title="My LinkedIn" src="img/transparent.gif" alt=""></a>
 		</li>
 		<li class="social-item">
 			<a href="http://www.github.com/edgar/"><img class="service-icons-color service-icons-square-32-github" title="My Github" src="img/transparent.gif" alt=""></a>
 		</li>
 		<li class="social-item">
-			<a href="https://plus.google.com/+EdgarGonzalezG" rel="me"><img class="service-icons-color service-icons-square-32-google" title="My Google Profile" src="img/transparent.gif" alt=""></a>
+			<a href="https://plus.google.com/+EdgarGonzalezG" rel="me"><img class="service-icons-color service-icons-square-32-google" title="My Google+ Profile" src="img/transparent.gif" alt=""></a>
 		</li>
 		<li class="social-item">
 			<a href="http://www.facebook.com/3dg4r/"><img class="service-icons-color service-icons-square-32-facebook" title="My Facebook" src="img/transparent.gif" alt=""></a>
 		</li>
 		<li class="social-item">
-			<a href="http://www.instagram.com/edgargonzalez/"><img class="service-icons-color service-icons-square-32-instagram" title="My mobile photos" src="img/transparent.gif" alt=""></a>
+			<a href="http://www.instagram.com/edgargonzalez/"><img class="service-icons-color service-icons-square-32-instagram" title="My Instagram" src="img/transparent.gif" alt=""></a>
 		</li>
 		<li class="social-item">
-			<a href="http://www.flickr.com/photos/egg/"><img class="service-icons-color service-icons-square-32-flickr" title="My photos" src="img/transparent.gif" alt=""></a>
+			<a href="http://www.flickr.com/photos/egg/"><img class="service-icons-color service-icons-square-32-flickr" title="My photos - Flickr" src="img/transparent.gif" alt=""></a>
+		</li>
+		<li class="social-item">
+			<a href="http://www.foursquare.com/edgar"><img class="service-icons-color service-icons-square-32-foursquare" title="My Foursquare" src="img/transparent.gif" alt=""></a>
 		</li>
 	</ul>
 </div>
