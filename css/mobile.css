@@ -402,6 +402,10 @@ body.is-scrolling #posts * {
     margin-top: 25px;
 }
 
+.title-group h1 {
+    margin-top: 45px !important;
+}
+
 h1 + .description {
     margin-top: 5px !important;
 }
