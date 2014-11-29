@@ -1,0 +1,2 @@
+#social-list { list-style-type: none!important; list-style-position: outside!important; padding: 0; list-style: none; overflow: hidden; display: block; margin-bottom: 10px; }
+.social-item { float: left; margin: 10px 10px 0 0; }
