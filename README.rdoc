@@ -1,4 +1,4 @@
 = gonzalez.io
 
-{My personal landing page}[http://www.gonzalez.io] builded using {jekyll}[http://github.com/mojombo/jekyll]
+{My personal landing page}[http://www.gonzalez.io]
 
