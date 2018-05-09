@@ -9,15 +9,15 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   <url>
    <loc>http://gonzalez.io/</loc>
-   <lastmod>2014-03-05T03:20:00+00:00</lastmod>
+   <lastmod>2018-05-09T10:20:00+00:00</lastmod>
    <changefreq>daily</changefreq>
    <priority>0.5</priority>
    <image:image>
-     <image:loc>http://gonzalez.io/img/profile.jpg</image:loc>
+     <image:loc>http://gonzalez.io/css/images/profile.jpg</image:loc>
      <image:caption>Edgar Gonzalez profile picture</image:caption>
    </image:image>
    <image:image>
-     <image:loc>http://gonzalez.io/img/eg_bg_parachute.jpg</image:loc>
+     <image:loc>http://gonzalez.io/css/images/eg_bg_parachute.jpg</image:loc>
      <image:caption>Edgar Gonzalez parachute sky diving</image:caption>
    </image:image>
   </url>
