@@ -1,0 +1,81 @@
+==================================================================
+https://keybase.io/edgar
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://gonzalez.io
+  * I am edgar (https://keybase.io/edgar) on keybase.
+  * I have a public key with fingerprint 45A6 D897 81CD ABBC A678  8C57 4599 5010 176C F6BF
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01019dda0bc56c7403691017fa7829163fd1c3789b03003b15fccb1a3a9a792ef9d90a",
+      "fingerprint": "45a6d89781cdabbca6788c5745995010176cf6bf",
+      "host": "keybase.io",
+      "key_id": "45995010176cf6bf",
+      "kid": "01019dda0bc56c7403691017fa7829163fd1c3789b03003b15fccb1a3a9a792ef9d90a",
+      "uid": "925d4dd0fdad22264959a202a79fc000",
+      "username": "edgar"
+    },
+    "merkle_root": {
+      "ctime": 1525961665,
+      "hash_meta": "d2791f1390be16270da200cf41870500fa64353b97ceef5776e96bb383270ae2",
+      "seqno": 2601256
+    },
+    "revoke": {
+      "sig_ids": [
+        "c80156224266b1706a11f9a5c8b20d86eb390ad09e0b0f441b6dcbe9eb28833f0f"
+      ]
+    },
+    "service": {
+      "hostname": "gonzalez.io",
+      "protocol": "http:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1525961665,
+  "expire_in": 157680000,
+  "prev": "da50054f98019513313a781dce122a9f8d4d18f09796d2e47d55e3536bae049d",
+  "seqno": 44,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.77
+Comment: https://keybase.io/crypto
+
+yMKzAnicrZNdaB1FFMdvUtOmkUqIJRUbkC5CA4npzOzOzM61tg0YMSAYPyq1rb3O
+x5mb9d7cvd27SdqEQEQtbV9KmyIWggiljQhaiqEqPkRDpUIeFBoapBYtSEsl+JIo
+SvPgbKz40kefhpn5n3P+53dmLm9Yk2uq6znT17yp/MdM3dzswcHc3uWXvh71VGwO
+e/lRrwSrC5QN1NJCKTJe3kMYYWGMREpTpnmAfCbcEbeSh0Rg5luDtc9DoZCPkK8w
+tVorLH0pJBcErDACSa/Ts1GlCEk1iSqpSxtQyUwoeIi1kUppyXgYasoDKgTNanKm
+LVPWBfbHtSzCmVOyBl1R7M7cprBq7z76/9n34Go6QagJjEHWSEMIYYGgQhJEnNZq
+hFAmrEFSkQPg1GCKMvHGOr0BSEplKCRxnGZkdRpl95gSKhhmjLruZK2/MACpdGGG
+cIEt9gVSgBnhyLgSSNsAhxxRhKxkgU99JbgGsJRzBoIp5Ye+00ogzkQNDlZiL08Y
+woQy5yCBobgEWfFaVHTMal5+n6dDhCkjJCCMKcwRkxhbIakOFUEmZKCcB2mQAKSQ
+DQKsmNEKBCgShr5vkfVeG8uKJUORXk2eDele88W4MiLLMPLPpKpJnMY6LruL/jSt
+5jMq6eFqJhwGVbiXoqCiinEPxAUMQVKL4oqj5JT3AQaHqlEChShTUM5CBx9lZWAo
+IygdJhpY4RoUFPs+9t28sdGACZHChm6IOLRIcMEMgYAbSsEhZUoCCoT5j2AQOJ+y
+6HI6bhWZDibgjc1+tf+BXF1Tbm1DffZzck3rm//9T590N+amT29cuSm2V/CxZHz8
+zlultumreWh/5M1PN15rWzw5PT88t7Vzy3Nv90i48OepIz+mm5c7hvp6TuzYdmtz
+4QsRvv5Qx9VXpn65eGsh2rljd+8zi0vzi0/+NPX5ydmG/StzA5cau7YdnTlyY11L
+ufn2hoX+7gfPf/P+rvX7HifP598dOd5+5u6aF6qvPnxu19NXZshHdqn+evkNRIJN
+N3ue/b3vcvTY2bato9f9pS3tk12PfrBwabt//MRnB+qPDje+s+da7+3J+YgGP7zY
+empvy5W+AzdWzp/u+HhwLZk4+/Lyr63f9srv0qfO/cXTPRO51oljDVPvNU6O/zx6
+8Yl1LYc+vBP+1r7zy+7v7/4NEbZzyA==
+=qrtQ
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/edgar
+
+==================================================================
